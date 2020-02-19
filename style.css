@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+
+.nav{
+    background-color: blue;
+    height: 50px;
+}
+
+.navButton{
+    color: burlywood;
+    margin-top: 20px;
+}
+
+.login{
+    float: right;
+}
+
+.signup{
+    float: right;
+}
+
+.name{
+    background-color:green;
+    height: 500px;
+}
+
+.tokotuku{
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    font-size: 10em;
+}
