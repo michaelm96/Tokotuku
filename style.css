@@ -3,7 +3,11 @@ body{
 }
 
 .nav{
-    background-color: blue;
+    display: flex;
+    list-style: none;
+    background-color: crimson;
+    font-size: 1em;
+    margin: 0;
     height: 50px;
 }
 
@@ -12,16 +16,16 @@ body{
     margin-top: 20px;
 }
 
-.login{
+/* .login{
     float: right;
 }
 
 .signup{
     float: right;
-}
+} */
 
 .name{
-    background-color:green;
+    background-image: radial-gradient(circle, white,blue);
     height: 500px;
 }
 
@@ -32,4 +36,37 @@ body{
     justify-content: center;
     height: 3em;
     font-size: 10em;
+}
+
+.container{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: cyan;
+    padding: 10px;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+}
+
+.imageDesc{
+    width: 300px;
+    height: 300px;
+}
+
+.harga{
+    color: red;
+    justify-self: end;
+}
+
+.viewMore{
+    display: flex;
+    justify-content: end;
 }
