@@ -1,32 +1,58 @@
 body{
-    margin: 0px;
+    margin: 0 auto;
 }
 
-.nav{
-    display: flex;
+header{
+    background-color: #299cdf;
+    height: 75px;
+    position: fixed;
+    width:100%;
+}
+
+/* .nav{
+    /* display: flex;
     list-style: none;
-    background-color: crimson;
-    font-size: 1em;
     margin: 0;
+    font-size: 1em;
+    background-color: #299cdf;
     height: 50px;
+] */
+
+li{
+    display: inline;
+}
+
+nav ul{
+    padding: 11.1px;
+    float: right;
+}
+nav li{
+    margin: 0 152px;
+}
+
+nav div{
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .navButton{
-    color: burlywood;
-    margin-top: 20px;
+    color: darkmagenta;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    font-weight: bold;
+    font-size: 18px;
 }
 
-/* .login{
+.right{ 
     float: right;
 }
-
-.signup{
-    float: right;
-} */
 
 .name{
-    background-image: radial-gradient(circle, white,blue);
-    height: 500px;
+    background-image: url(image/jason-leung-Xaanw0s0pMk-unsplash.jpg);
+    background-size: cover;
 }
 
 .tokotuku{
@@ -36,13 +62,14 @@ body{
     justify-content: center;
     height: 3em;
     font-size: 10em;
+    text-shadow: floralwhite 5px 5px;
 }
 
 .container{
     background-color: aliceblue;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-color: cyan;
+    background-color: turquoise;
     padding: 10px;
 }
 
@@ -53,11 +80,11 @@ body{
     font-size: 30px;
     text-align: center;
     height: 400px;
-    width: 300px;
+    width: 250px;
 }
 
 .imageDesc{
-    width: 300px;
+    width: 250px;
     height: 300px;
 }
 
@@ -69,4 +96,52 @@ body{
 .viewMore{
     display: flex;
     justify-content: end;
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+.copyright{
+    margin-left: 700px;
+}
+
+.content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* margin-left: 10%; */
+    background-color: lightgreen;
+    
+}
+
+.content .product-img img{
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.product-img{
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-img p{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.product-img a{
+    border: 1px solid #ea8508;
+    padding: 10px;
+    color: black;
+    background-color:#ffa637;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.product-img a:hover{
+    border-bottom: 2px solid black;
+
 }
