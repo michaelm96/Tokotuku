@@ -39,15 +39,20 @@ nav div{
 }
 
 .navButton{
-    color: darkmagenta;
+    color: pink;
     /* margin-left: 150px;
     margin-right: 150px; */
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
+    font-family: 'Shadows Into Light';
 }
 
 .right{ 
     float: right;
+}
+
+h2{
+    font-family: 'Shadows Into Light';
 }
 
 .name{
@@ -63,6 +68,8 @@ nav div{
     height: 3em;
     font-size: 10em;
     text-shadow: floralwhite 5px 5px;
+    font-family: 'Cinzel';
+    transform: rotate(-3deg);
 }
 
 .container{
@@ -139,6 +146,7 @@ footer{
     background-color:#ffa637;
     text-decoration: none;
     border-radius: 15px;
+    font-style: italic;
 }
 
 .product-img a:hover{
