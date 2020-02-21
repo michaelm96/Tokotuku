@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    background-image: url("/home/this/Documents/Group7/sebastian-scholz-nuki-Fh3Dtg6QX4Q-unsplash.jpg");
+    background-size: cover;
+}
+  
+  body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    
+  }
+
+  form{
+      text-align: center;
+  }
+
+#email{
+    margin-left: 100px;
+}
+
+#password{
+    margin-left: 73px;
+}
+
+.signin{
+    background-color: grey;
+}
+
+section{
+    color: #299cdf;
+    width: 500px;
+    font-style: oblique;
+    font-size: 15px;
+    border-style: groove;
+    border-width: thin;
+    margin: 0 auto;
+}
+
+h1,p{
+    text-align: center;
+}
+
+.submit{
+    border-bottom: steelblue;
+    
+}
+
+
+#login{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submission{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
